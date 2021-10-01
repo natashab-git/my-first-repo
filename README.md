@@ -27,11 +27,13 @@ git commit -m "resolved conflict"
 git push 
 
 003: Making a separate branch
+
 git checkout -b "branch_1" 
 git push --set-upstream origin branch_1
 git add filename.md
 git commit -m "added a line to doc" 
 git push 
+
 #everything stays in branch 
-#pull in Github to merge into main branch once you're done 
-playing with code 
+
+#pull in Github to merge into main branch once you're done playing with code 
